@@ -1,0 +1,31 @@
+body {
+  background-color: #fff1e6;
+  color: black;
+  padding: 40px;
+  font-family: Arial;
+  text-align: center;
+}
+
+.formtext {
+  border: thin solid red;
+  padding: 2rem;
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.list {
+  border: thin solid blue;
+  padding: 2rem;
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.listtext {
+  position: relative;
+  top: -47px;
+  background: white;
+  padding: 7px;
+  width: 106px;
+  color: blue;
+}

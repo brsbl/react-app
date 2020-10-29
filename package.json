@@ -1,14 +1,23 @@
 {
-  "name": "hello-react",
+  "name": "react-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "8": "0.0.1",
     "@testing-library/jest-dom": "^5.11.5",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "axios": "^0.21.0",
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.3.0",
+    "express": "^4.17.1",
+    "node": "^15.0.1",
+    "prop-types": "^15.7.2",
     "react": "^17.0.1",
+    "react-axios": "^2.0.3",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.0",
+    "spotify-web-api-node": "^5.0.0",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
@@ -34,5 +43,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "devDependencies": {
+    "prettier": "2.1.2"
+  },
+  "proxy": "http://localhost:3000"
 }
